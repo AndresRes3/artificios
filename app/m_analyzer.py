@@ -27,7 +27,7 @@ def contains_artifact_clue(manuscript: list[str]) -> bool:
         for col in range(n_cols - 3):
             diag = [manuscript[row][col], manuscript[row + 1][col + 1], 
                     manuscript[row + 2][col + 2], manuscript[row + 3][col + 3]]
-            print(f"Diagonal \\ en ({row},{col}): {diag}")  #DEBUG
+            #print(f"Diagonal \\ en ({row},{col}): {diag}")  #DEBUG
             if diag[0] == diag[1] == diag[2] == diag[3]:
                 return True
 
@@ -36,7 +36,7 @@ def contains_artifact_clue(manuscript: list[str]) -> bool:
         for col in range(n_cols - 3):
             diag = [manuscript[row][col], manuscript[row - 1][col + 1], 
                     manuscript[row - 2][col + 2], manuscript[row - 3][col + 3]]
-            print(f"Diagonal / en ({row},{col}): {diag}")  # DEBUG
+            #print(f"Diagonal / en ({row},{col}): {diag}")  # DEBUG
             if diag[0] == diag[1] == diag[2] == diag[3]:
                 return True
     return False

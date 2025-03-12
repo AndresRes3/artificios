@@ -20,5 +20,5 @@ Asegúrate de tener instalado:
 
 ### **2️⃣ Clonar el repositorio**
 ```bash
-git clone https://github.com/TU_USUARIO/NOMBRE_REPOSITORIO.git
-cd NOMBRE_REPOSITORIO
+git clone https://github.com/AndresRes3/artificios.git
+cd ARTIFICIOS
