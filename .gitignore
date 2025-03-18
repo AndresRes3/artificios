@@ -1,0 +1,22 @@
+# 📦 Entornos virtuales
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🛠️ Archivos de configuración y dependencias
+*.env
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sqlite3
+
+# 🏗️ Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
